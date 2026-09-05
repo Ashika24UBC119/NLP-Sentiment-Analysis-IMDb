@@ -1,6 +1,6 @@
-# 🎬 NLP-Based Sentiment Analysis of IMDb Movie Reviews
+# NLP-Based Sentiment Analysis of IMDb Movie Reviews
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a Natural Language Processing (NLP) based Sentiment Analysis system for movie reviews.
 
@@ -14,13 +14,13 @@ The project uses:
 - Scikit-learn
 - Gradio for the interactive application
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Movie reviews contain valuable opinions and emotions expressed through natural language. Manually analyzing thousands of reviews to determine whether they are positive or negative is time-consuming.
 
 The objective of this project is to develop an NLP-based machine learning system that can automatically classify IMDb movie reviews into **Positive** or **Negative** sentiment categories.
 
-## 🎯 Objectives
+## Objectives
 
 - To understand the application of NLP in sentiment analysis.
 - To preprocess and clean movie review text.
@@ -29,7 +29,7 @@ The objective of this project is to develop an NLP-based machine learning system
 - To evaluate the model using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
 - To develop an interactive sentiment prediction application using Gradio.
   
-## 📊 Dataset
+## Dataset
 
 ### IMDb Large Movie Review Dataset
 
@@ -60,7 +60,7 @@ The dataset was divided using an **80:20 split**:
 - Training data: 40,000 reviews
 - Testing data: 10,000 reviews
 
-## 🔄 Methodology
+## Methodology
 
 The project follows the workflow:
 
@@ -106,7 +106,8 @@ Logistic Regression was used as the classification algorithm.
 
 The model was trained using the TF-IDF feature vectors and corresponding sentiment labels.
 
-💻 Technologies Used
+Technologies Used
+
 Programming Language
 Python
 Libraries
@@ -121,7 +122,7 @@ Development Environment
 Google Colab
 GitHub
 
-⚙️ Machine Learning Model
+Machine Learning Model
 
 The classification model used in this project is:
 
@@ -153,7 +154,7 @@ F1-Score	88.78%
 
 The model was also evaluated using a Confusion Matrix and Classification Report.
 
-🖥️ Interactive Application
+ Interactive Application
 
 The trained sentiment analysis model was integrated with Gradio to create an interactive web interface.
 
